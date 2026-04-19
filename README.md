@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/github/license/loryanstrant/HACS-Update-Action-Tracker)](LICENSE)
 
 <p align="center">
-  <img src="images/logo.svg" alt="Update Action Tracker Logo" width="200">
+  <img src="custom_components/update_action_tracker/brand/icon.png" alt="Update Action Tracker Logo" width="200">
 </p>
 
 ## Overview
