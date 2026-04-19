@@ -3,7 +3,7 @@
   "name": "Update Action Tracker",
   "codeowners": ["@loryanstrant"],
   "config_flow": true,
-  "dependencies": ["lovelace"],
+  "dependencies": ["http","lovelace"],
   "after_dependencies": ["hacs"],
   "documentation": "https://github.com/loryanstrant/HACS-Update-Action-Tracker",
   "issue_tracker": "https://github.com/loryanstrant/HACS-Update-Action-Tracker/issues",
