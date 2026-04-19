@@ -19,10 +19,16 @@ A replacement for the regular HACS update entities card in Home Assistant. Inste
 This is particularly useful when HACS updates include breaking changes, new features that need configuration, or deprecations that require attention.
 
 ## Screenshots
+**List of components to update**
+<img width="494" height="764" alt="image" src="https://github.com/user-attachments/assets/454e5eaa-478c-4245-8f9a-3fb6ba6a3c1d" />
 
-<!-- Screenshots will be added here -->
-<!-- ![Card Screenshot](screenshots/card.png) -->
-<!-- ![Todo Screenshot](screenshots/todo.png) -->
+**Item added to to-do list**
+<img width="861" height="327" alt="image" src="https://github.com/user-attachments/assets/144a539f-07b5-4ac1-86d9-5e516d54cdc7" />
+
+**To-do item details**
+<img width="564" height="468" alt="image" src="https://github.com/user-attachments/assets/89634899-2daf-4744-bfd4-719d4e761613" />
+
+
 
 ## Features
 
