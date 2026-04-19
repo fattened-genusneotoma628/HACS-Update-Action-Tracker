@@ -88,6 +88,7 @@ The integration will automatically:
 
 ### Adding the Card to Your Dashboard
 
+**IMPORTANT:** Before adding the card, make sure you restart HA *after* you've configured the integration. Once HA has restarted, perform a force refresh (Ctrl+F5) on your browser.
 1. Edit your dashboard
 2. Click **+ Add Card**
 3. Search for **HACS Update Action Tracker**
