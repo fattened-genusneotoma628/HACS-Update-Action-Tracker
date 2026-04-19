@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Update Action Tracker",
+        "description": "Set up Update Action Tracker to monitor HACS updates and track follow-up actions in a to-do list."
+      }
+    },
+    "abort": {
+      "already_configured": "Update Action Tracker is already configured."
+    }
+  },
+  "services": {
+    "update_and_action": {
+      "name": "Update and Add Action",
+      "description": "Install the HACS update and add a to-do item to track follow-up actions.",
+      "fields": {
+        "entity_id": {
+          "name": "Update Entity",
+          "description": "The update entity to install (e.g. update.my_integration_update)."
+        },
+        "version": {
+          "name": "Version",
+          "description": "Specific version to install. If omitted, installs the latest version."
+        }
+      }
+    }
+  }
+}

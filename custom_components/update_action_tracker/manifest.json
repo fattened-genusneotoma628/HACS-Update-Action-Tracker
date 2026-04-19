@@ -1,0 +1,13 @@
+{
+  "domain": "update_action_tracker",
+  "name": "Update Action Tracker",
+  "codeowners": ["@loryanstrant"],
+  "config_flow": true,
+  "dependencies": ["lovelace"],
+  "after_dependencies": ["hacs"],
+  "documentation": "https://github.com/loryanstrant/HACS-Update-Action-Tracker",
+  "issue_tracker": "https://github.com/loryanstrant/HACS-Update-Action-Tracker/issues",
+  "iot_class": "local_push",
+  "requirements": [],
+  "version": "0.1.1"
+}
