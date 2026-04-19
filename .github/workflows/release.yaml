@@ -19,14 +19,14 @@ jobs:
 
       - name: Create zip file
         run: |
-          cd custom_components/update-action-tracker
-          zip -r ../../update-action-tracker.zip . -x "__pycache__/*" "*.pyc" "*.pyo"
+          cd custom_components/update_action_tracker
+          zip -r ../../update_action_tracker.zip . -x "__pycache__/*" "*.pyc" "*.pyo"
 
       - name: Upload zip to release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ./update-action-tracker.zip
-          asset_name: update-action-tracker.zip
+          file: ./update_action_tracker.zip
+          asset_name: update_action_tracker.zip
           tag: ${{ github.event.release.tag_name }}
           overwrite: true
