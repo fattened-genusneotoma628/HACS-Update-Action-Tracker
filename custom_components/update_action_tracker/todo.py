@@ -79,11 +79,12 @@ class UpdateActionTodoList(TodoListEntity):
     async def async_create_todo_item(self, item: TodoItem) -> None:
         """Add an item to the to-do list."""
         uid = item.uid or str(uuid.uuid4())
+        status = item.status or TodoItemStatus.NEEDS_ACTION
         self._items.append(
             {
                 "uid": uid,
                 "summary": item.summary,
-                "status": (item.status or TodoItemStatus.NEEDS_ACTION).value,
+                "status": status.value if isinstance(status, TodoItemStatus) else str(status),
                 "description": item.description,
             }
         )
@@ -97,7 +98,7 @@ class UpdateActionTodoList(TodoListEntity):
                 if item.summary is not None:
                     existing["summary"] = item.summary
                 if item.status is not None:
-                    existing["status"] = item.status.value
+                    existing["status"] = item.status.value if isinstance(item.status, TodoItemStatus) else str(item.status)
                 if item.description is not None:
                     existing["description"] = item.description
                 await self._async_save()
